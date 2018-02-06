@@ -16,10 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from rest_framework.urlpatterns import format_suffix_patterns
-from app1 import views
+from app2 import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('countrys/', views.TbCountryList.as_view()),
-
+    path('citys/', views.TbCityList.as_view()),
+    path('userStore/', views.TbUserStoreList.as_view()),
+    path('storesUsers/', views.TbStoresUserList.as_view()),
+	path('storesUsersCity/', views.TbStoresUserCityList.as_view()),
+    
 ]

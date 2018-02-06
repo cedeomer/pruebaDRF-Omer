@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'app1',
+    'app2',
 ]
 
 MIDDLEWARE = [
@@ -86,7 +86,7 @@ DATABASES = {
 
     'default': {
         'ENGINE': 'mysql_cymysql',
-        'NAME': 'pruebaDjango', 
+        'NAME': 'pruebaDjango2', 
         'USER': 'root', 
         'PASSWORD': '', 
         'HOST': '127.0.0.1', 
