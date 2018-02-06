@@ -59,7 +59,7 @@ CREATE TABLE `tb_country` (
 -- Volcado de datos para la tabla `tb_country`
 --
 
-INSERT INTO `tb_country` (`idCountry`, `nameCountry`, `description`, `idStatus`) VALUES
+INSERT INTO `tb_country` (`idCountry`, `nameCountry`, `description`, `idstatus_id`) VALUES
 (1, 'Venezuela', '', 1),
 (2, 'Colombia', '', 1),
 (3, 'Argentina', '', 1),
